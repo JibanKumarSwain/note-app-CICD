@@ -7,7 +7,7 @@ pipeline {
                 echo "Cloning the code"   
                 git url:"https://github.com/JibanKumarSwain/note-app-CICD.git", branch: "main"
             }            
-        }
+        }  
         stage("Build"){
             steps {       
                 echo "Building the image"   
