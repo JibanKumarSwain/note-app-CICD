@@ -9,7 +9,7 @@ pipeline {
             }            
         }
         stage("Build"){
-            steps {    
+            steps {       
                 echo "Building the image"   
                 sh "docker build -t my-note-app ."
             }      
